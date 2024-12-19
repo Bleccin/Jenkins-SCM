@@ -2,8 +2,9 @@
   "name": "example-app",
   "version": "1.0.0",
   "scripts": {
-    "build": "echo 'Building the app' && mkdir -p dist",
-    "test": "echo 'Running tests'",
-    "start": "echo 'Starting the app'"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
