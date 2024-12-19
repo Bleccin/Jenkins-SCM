@@ -6,6 +6,6 @@ app.get('/', (req, res) => {
   res.send('Hello from Docker!');
 });
 
-app.listen(port, '0.0.0.0', () => { // This line is essential!
+app.listen(port, '0.0.0.0', () => {
   console.log(`Server listening on port ${port}`);
 });
