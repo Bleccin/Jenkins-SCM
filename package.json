@@ -2,6 +2,8 @@
   "name": "example-app",
   "version": "1.0.0",
   "scripts": {
+    "build": "mkdir -p dist",
+    "test": "echo 'Running tests'", // Or your actual test command
     "start": "node index.js"
   },
   "dependencies": {
