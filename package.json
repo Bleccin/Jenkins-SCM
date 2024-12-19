@@ -2,14 +2,11 @@
   "name": "example-app",
   "version": "1.0.0",
   "scripts": {
-    "build": "mkdir -p dist", // Or your actual build command
-    "test": "echo 'Running tests'", // Or your actual test command (e.g., "jest")
+    "build": "mkdir -p dist",
+    "test": "echo 'Running tests'",
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.18.2" // Example dependency
-  },
-  "devDependencies": {
-    "jest": "^29.7.0" // Example dev dependency for testing
+    "express": "^4.18.2"
   }
 }
